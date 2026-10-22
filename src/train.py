@@ -33,7 +33,7 @@ X_train_full, X_test, y_train_full, y_test = train_test_split(
 # 3. Configure training-data fraction
 # Use 1.0 for the baseline.
 # Try 0.2 for the reduced-data experiment.
-TRAIN_DATA_FRACTION = 0.1
+TRAIN_DATA_FRACTION = 0.5
 
 X_train, _, y_train, _ = train_test_split(
     X_train_full,
