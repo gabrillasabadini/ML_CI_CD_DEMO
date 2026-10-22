@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/Gabrilla Sabadini/Desktop/ML_CI_CD_DEMO/mlruns/1/models/m-36815534b0dd452eb6f02ca66cd93f2b/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.14.3
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.17.0
+model_id: m-36815534b0dd452eb6f02ca66cd93f2b
+model_size_bytes: 9323
+model_uuid: m-36815534b0dd452eb6f02ca66cd93f2b
+prompts: null
+run_id: 619d54c9725b41a1804414d07b46f7c2
+utc_time_created: '2026-10-09 14:59:18.657229'
